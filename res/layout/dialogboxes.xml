@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click each button to start building your pizza: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnPizzaName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="name" />
+
+    <Button
+        android:id="@+id/btnPizzaCrust"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="crust" />
+
+    <Button
+        android:id="@+id/btnPizzaSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Size" />
+
+    <Button
+        android:id="@+id/btnPizzaTopping"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Topping" />
+
+    <TextView
+        android:id="@+id/lblOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Pizza:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   
+</LinearLayout>
